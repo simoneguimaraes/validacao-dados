@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Validação de Dados</h1>
+    </header>
+    <section>
+        <div id="txtform">
+            <p>
+                Informe números entre 1 e 100: 
+                <input type="number" name="txtnumber" id="txtnumber">
+                <input type="button" value="Adicionar" onclick="adicionar()" id="buttom1">
+                <br><br>
+                <select name="list" size="12" id="txtlist"></select>
+            </p> 
+        </div>
+        <div>
+            <input type="button" value="Verificar" onclick="finalizar()" id="buttom2">
+        </div>
+        <div id="txtresult">
+            <p>
+            </p>
+        </div>  
+    </section>
+    <footer>
+        <p>&copy; Simone Guimarães</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

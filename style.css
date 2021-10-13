@@ -1,0 +1,49 @@
+body {
+    background-color:#031a31
+    ;
+}
+
+header {
+    color: #eeeee4;
+    text-align: center;
+    font: bolder 15pt sans-serif;
+}
+
+section {
+    background-color: #e6c8a3;
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+    padding: 10px 10px 35px 10px;
+    box-shadow: 5px 5px 10px rgb(22, 22, 21);
+    font: normal 15pt serif;
+    text-align: center;
+}
+
+#txtnumber {
+    width: 100px;
+    margin: 0 10px 0 0;
+}
+
+select#txtlist {
+    width: 170px;
+}
+
+#buttom1, #buttom2 {
+    font: normal 15pt serif;
+    background-color: #873e23;
+    color: #eeeee4;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: #eeeee4;
+}
+
+#txtresult {
+    font-size: 12pt;
+    text-align: start;
+    margin-left: 25%;
+    padding-top: 10px;
+}
